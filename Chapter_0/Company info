@@ -1,0 +1,16 @@
+
+  public class CompanyInfo {
+      public static void main(String[] args) {
+         System.out.println("Smart Electronics");
+         displayhours();
+   }
+   
+   public static void displayhours() {
+         System.out.println("Monday - Friday 8 am to 9 pm");
+         System.out.println("Saturday        8 am to 9 pm"); 
+         System.out.println("Sunday          Closed");
+         
+         
+   
+   }
+}
