@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class DemoGrossPay2 {
+
+  
+    private static final double HOURLY_RATE = 22.75;
+
+    
+    public static void calculateGross(double hoursWorked) {
+        double grossPay = hoursWorked * HOURLY_RATE;
+        System.out.printf("Gross pay for %.2f hours is $%.2f%n", hoursWorked, grossPay);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+      
+        System.out.print("Enter the number of hours worked: ");
+        double hoursWorked = scanner.nextDouble();
+
+        
+        calculateGross(hoursWorked);
+
+        scanner.close();
+    }
+}
