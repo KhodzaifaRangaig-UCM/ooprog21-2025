@@ -1,0 +1,15 @@
+
+  public class DemoGrossPay {
+      
+      public static double calculateGross(double hoursWorked) {
+         return hoursWorked * 22.75;
+    }
+      
+      
+      public static void main(String[] args) {
+         System.out.println("10.0 hours at $22.75 per hour is $" + calculateGross(10.0));
+         System.out.println("25.0 hours at $22.75 pre hour is $" + calculateGross(25.0));
+         System.out.println("37.5 hours at $22.75 per hour is $" + calculateGross(37.5));
+   }
+
+}
